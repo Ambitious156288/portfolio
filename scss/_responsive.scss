@@ -1,0 +1,164 @@
+@media screen and (max-width: 1500px) {
+
+  .about {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .about .about__container {
+    width: 80%;
+    padding: 80px 60px;
+    margin-bottom: 30px;
+  }
+
+  .about .about__container h2 {
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+
+  .about .about__container h4 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .about .about__container p {
+    font-size: 20px;
+  }
+
+  .about .about__skills {
+    padding: 50px;
+    text-align: center;
+    border-radius: 20%;
+    width: 50%;
+  }
+
+  .about .about__skills h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .about .about__skills h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+
+  .home .home__animation-static,
+  .home .home__animation-dynamic,
+  .home .home__animation-cursor {
+    font-size: 55px;
+  }
+
+  .home__animation {
+    padding: 20vh 10px 5vh 10px;
+  }
+
+  .home__arrow a .bounce {
+    font-size: 55px;
+  }
+
+  .about .about__container {
+    width: 63%;
+    padding: 40px 30px;
+  }
+
+  .about .about__container h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .overlayAll p {
+    font-size: 20px;
+  }
+
+  .home .home__nav .menu {
+    height: auto;
+  }
+
+  .home .home__nav .menu .menu-inner {
+    display: block;
+  }
+
+  .home .home__nav .menu .menu-inner .menu-inner-link {
+    padding: 2px 0;
+    font-size: 1.2em;
+  }
+
+  .home .home__nav .menu.active {
+    width: calc(100% - 0.5rem);
+  }
+
+  .home .home__animation-static,
+  .home .home__animation-dynamic,
+  .home .home__animation-cursor {
+    font-size: 40px;
+  }
+
+  .home__arrow a .bounce {
+    font-size: 40px;
+  }
+
+  .about .about__container h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .about .about__container h4 {
+    font-size: 18px;
+  }
+
+  .about .about__container p {
+    font-size: 15px;
+  }
+
+  .about .about__skills h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .about .about__skills h2 {
+    font-size: 16px;
+  }
+
+  .contact__container h2 {
+    font-size: 35px;
+    padding: 30px 0;
+  }
+
+  .contact__container-info {
+    flex-direction: column;
+  }
+
+  .contact__container-info .message p {
+    font-size: 14px;
+  }
+
+  .contact__container-info .message hr {
+    width: 250px;
+  }
+
+  .contact__container-info .message .message__first-form {
+    width: 80%;
+  }
+
+  .contact__container-info .social {
+    margin-top: 60px;
+  }
+
+  .contact__container-info .social a i {
+    font-size: 60px;
+  }
+
+  .contact__container-info .social span {
+    font-size: 13px;
+  }
+}
