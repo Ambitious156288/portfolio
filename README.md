@@ -1,3 +1,1 @@
-# portfolio
-
-kkprogrammer.netlify.com
+https://kkprogrammer.netlify.com
