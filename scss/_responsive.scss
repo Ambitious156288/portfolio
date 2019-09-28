@@ -45,6 +45,16 @@
   .about .about__skills h2 {
     font-size: 25px;
   }
+
+  .projects h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+
+  .projects button {
+    display: block;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
@@ -71,6 +81,17 @@
   .about .about__container h2 {
     font-size: 50px;
     padding-bottom: 10px;
+  }
+
+
+  .projects h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .projects h3 {
+    font-size: 25px;
+    padding: 40px;
   }
 
 }
@@ -160,5 +181,20 @@
 
   .contact__container-info .social span {
     font-size: 13px;
+  }
+
+  .projects h1 {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .projects h3 {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .projects img {
+    display: none;
   }
 }
