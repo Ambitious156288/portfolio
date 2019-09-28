@@ -342,12 +342,101 @@ html {
 }
 
 .projects {
-  height: 100vh;
-  background-color: #63ac5a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+  background-color: black;
 }
 
 .projects h1 {
-  font-size: 70px;
+  color: #cbcdc4;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+}
+
+.projects h3 {
+  color: #b49530;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.projects__div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  width: 65vw;
+  height: 300px;
+  background-color: #fff;
+  -webkit-box-shadow: 7px 7px 0 #b49530, 7px 7px 0 #b49530;
+          box-shadow: 7px 7px 0 #b49530, 7px 7px 0 #b49530;
+}
+
+.projects__div-name {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 30px;
+  letter-spacing: 5px;
+  -webkit-box-shadow: 10px 10px 5px 0px black;
+          box-shadow: 10px 10px 5px 0px black;
+}
+
+.projects__div-btn {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.projects__div-btn button {
+  border: 1px dashed black;
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.projects__div-btn button a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  font-size: 15px;
+}
+
+.projects__div-btn button:hover {
+  -webkit-box-shadow: 0 0 6px 6px red;
+          box-shadow: 0 0 6px 6px red;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.projects__div-btn button:first-child {
+  margin-right: 30px;
+}
+
+.projects__div img {
+  position: absolute;
+  right: 2%;
+  width: 35%;
+  height: 80%;
 }
 
 .contact {
@@ -356,7 +445,7 @@ html {
 }
 
 .contact__container h2 {
-  font-size: 60px;
+  font-size: 65px;
   text-align: center;
   text-transform: uppercase;
   padding: 50px 0;
@@ -628,6 +717,14 @@ html {
   .about .about__skills h2 {
     font-size: 25px;
   }
+  .projects h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  .projects button {
+    display: block;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
@@ -649,6 +746,14 @@ html {
   .about .about__container h2 {
     font-size: 50px;
     padding-bottom: 10px;
+  }
+  .projects h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .projects h3 {
+    font-size: 25px;
+    padding: 40px;
   }
 }
 
@@ -721,6 +826,18 @@ html {
   }
   .contact__container-info .social span {
     font-size: 13px;
+  }
+  .projects h1 {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .projects h3 {
+    font-size: 16px;
+    padding: 20px;
+  }
+  .projects img {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
